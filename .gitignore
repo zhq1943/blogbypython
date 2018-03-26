@@ -1,3 +1,4 @@
 *.sqlite3
 fabfile.py
 fabfile.pyc
+blog/__pycache__/*.*
