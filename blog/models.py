@@ -39,4 +39,4 @@ class Post(models.Model):
 
     def increase_views(self):
         self.views += 1
-        self.save(update_file=['views'])
+        self.save(update_fields=['views'])
